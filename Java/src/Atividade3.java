@@ -14,12 +14,12 @@ public class Atividade3 {
 
         // Arrays
 
-        String[] nomes = new String[8];
-        float[] notas = new float[8];
+        String[] nomes = new String[30];
+        float[] notas = new float[30];
 
         // Zerando valores
 
-        totalAlunos = 8;
+        totalAlunos = 30;
         somaNotas = 0;
         abaixo70 = 0;
         entre70e95 = 0;
@@ -55,7 +55,6 @@ public class Atividade3 {
 
         for (i = 0; i < totalAlunos; i++) {
             if (notas[i] < 70) {
-                System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10s |\n", "Aluno", "Nota");
                 System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10.2f |\n", nomes[i], notas[i]);
@@ -71,7 +70,6 @@ public class Atividade3 {
 
         for (i = 0; i < totalAlunos; i++) {
             if (notas[i] >= 70 && notas[i] <= 95) {
-                System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10s |\n", "Aluno", "Nota");
                 System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10.2f |\n", nomes[i], notas[i]);
@@ -86,7 +84,6 @@ public class Atividade3 {
 
         for (i = 0; i < totalAlunos; i++) {
             if (notas[i] > 95) {
-                System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10s |\n", "Aluno", "Nota");
                 System.out.println("----------------------------------");
                 System.out.printf("| %-10s | %-10.2f |\n", nomes[i], notas[i]);
