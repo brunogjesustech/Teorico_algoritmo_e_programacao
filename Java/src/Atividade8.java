@@ -35,6 +35,8 @@ public class Atividade8 {
 
             opcao = leia.nextInt();
 
+            // Emprestimo
+
             if (opcao == 1) {
                 System.out.print("Livro (1 ou 2): ");
                 livro = leia.nextInt();
@@ -48,6 +50,8 @@ public class Atividade8 {
                     estoqueDois = estoqueDois - qtd;
                 }
 
+                // Devolução
+
             } else if (opcao == 2) {
                 System.out.print("Livro (1 ou 2): ");
                 livro = leia.nextInt();
@@ -60,6 +64,8 @@ public class Atividade8 {
                 } else {
                     estoqueDois = estoqueDois + qtd;
                 }
+
+                // Relatório
 
             } else if (opcao == 3) {
                 System.out.println("Livro 1: " + tituloUm + " - " + estoqueUm + " em estoque");
