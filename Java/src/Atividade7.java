@@ -39,7 +39,7 @@ public class Atividade7 {
 
         System.out.println("Lista ordenada:");
         for (i = 0; i < lista.length; i++) {
-            System.out.print(lista[i] + " , 1");
+            System.out.print(lista[i] + " , ");
         }
     }
 }
