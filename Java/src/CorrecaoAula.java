@@ -1,3 +1,9 @@
+// Crie 3 funções e depois um menu que inicialize elas
+
+// 1 - Solicite ao usuário o raio e calcule a área do circulo
+// 2 - Calcule a média de 6 números
+// 3 - Crie um Vetor com 10 números e identifique em qual posição se encontra o menor número
+
 import java.util.Scanner;
 
 public class CorrecaoAula {
@@ -9,6 +15,8 @@ public class CorrecaoAula {
     // Função Calcular Área
     static void calculaArea() {
 
+        System.out.println();
+
         int raio;
         double area;
 
@@ -18,10 +26,13 @@ public class CorrecaoAula {
         area = Math.PI * raio * raio;
 
         System.out.println("A área do círculo é: " + area + " cm²");
+        System.out.println();
     }
 
     // Função Média
     static void calcularMedia() {
+
+        System.out.println();
 
         int soma = 0;
         double media;
@@ -37,10 +48,13 @@ public class CorrecaoAula {
         media = (double) soma / lista.length;
 
         System.out.println("Média: " + media);
+        System.out.println();
     }
 
     // Função Menor
     static void calcularMenor() {
+
+        System.out.println();
 
         int[] numero = new int[10];
         int menor, posicao = 0;
@@ -49,6 +63,7 @@ public class CorrecaoAula {
         for (int i = 0; i < numero.length; i++) {
             System.out.print("Informe um número: ");
             numero[i] = leia.nextInt();
+            System.out.println();
         }
 
         // Inicializa depois de preencher
@@ -66,14 +81,15 @@ public class CorrecaoAula {
         System.out.println("Posição: " + posicao);
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         do {
-            System.out.println("\nEscolha uma opção:");
+
             System.out.println("1 - Calcular Área");
             System.out.println("2 - Calcular Média");
             System.out.println("3 - Calcular Menor");
             System.out.println("0 - Sair");
+            System.out.print("Escolha uma opção: ");
 
             opcao = leia.nextInt();
 
@@ -83,6 +99,9 @@ public class CorrecaoAula {
                 calcularMedia();
             } else if (opcao == 3) {
                 calcularMenor();
+            }
+            else {
+                System.out.println("Obrigado por acessar nosso programa!");
             }
 
         } while (opcao != 0);
