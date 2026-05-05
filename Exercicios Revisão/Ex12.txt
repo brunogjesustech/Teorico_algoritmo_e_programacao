@@ -1,0 +1,18 @@
+//12. Números pares
+//Mostrar todos pares de 1 até 100.
+
+Algoritmo "12"
+
+Var
+
+   pares, i: inteiro
+
+Inicio
+
+   pares <- 1
+
+   para i de 2 ate 20 passo 2 faca
+      Escreval(i)
+   fimpara
+
+Fimalgoritmo

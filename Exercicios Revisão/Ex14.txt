@@ -1,0 +1,31 @@
+Algoritmo "14"
+
+Var
+   numeros: vetor[1..10] de inteiro
+   i, maior, menor: inteiro
+
+Inicio
+
+   para i de 1 ate 10 faca
+      Escreva("Insira um número: ")
+      Leia(numeros[i])
+
+      se (i = 1) entao
+         maior <- numeros[i]
+         menor <- numeros[i]
+      senao
+         se (numeros[i] > maior) entao
+            maior <- numeros[i]
+         fimse
+
+         se (numeros[i] < menor) entao
+            menor <- numeros[i]
+         fimse
+      fimse
+
+   fimpara
+
+   Escreval("O maior número é: ", maior)
+   Escreval("O menor número é: ", menor)
+
+Fimalgoritmo

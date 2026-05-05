@@ -1,0 +1,22 @@
+Algoritmo "3"
+
+Var
+
+   temperaturaC, temperaturaF: real
+
+Inicio
+
+   // Entrada
+
+   Escreva("Insira a temperatura em Celsius (ºC): ")
+   Leia(temperaturaC)
+
+   // Processamento
+
+   temperaturaF <- (temperaturaC * 9/5)+32
+
+   // Saída
+
+   Escreva("A temperatura inserida em Celsius foi: ",temperaturaC,"ºC "," e convertida para Fahrenheit é: ",temperaturaF,"ºF")
+   
+Fimalgoritmo

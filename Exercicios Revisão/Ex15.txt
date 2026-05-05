@@ -1,0 +1,33 @@
+Algoritmo "15"
+
+Var
+   numero: inteiro
+   soma, media: real
+   contador: inteiro
+
+Inicio
+
+   soma <- 0
+   contador <- 0
+
+   Escreva("Insira um número (0 para parar): ")
+   Leia(numero)
+
+   enquanto (numero <> 0) faca
+
+      soma <- soma + numero
+      contador <- contador + 1
+
+      Escreva("Insira um número (0 para parar): ")
+      Leia(numero)
+
+   fimenquanto
+
+   se (contador > 0) entao
+      media <- soma / contador
+      Escreval("A média é: ", media)
+   senao
+      Escreval("Nenhum número válido foi inserido")
+   fimse
+
+Fimalgoritmo

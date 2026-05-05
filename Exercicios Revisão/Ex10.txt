@@ -1,0 +1,20 @@
+Algoritmo "10"
+
+Var
+   numero, resultado: inteiro
+   i: inteiro
+
+Inicio
+
+   Escreva("Insira um número: ")
+   Leia(numero)
+
+   resultado <- 0
+
+   para i de 1 ate numero faca
+      resultado <- resultado + i
+   fimpara
+
+   Escreva("A soma de 1 até ", numero, " é: ", resultado)
+
+Fimalgoritmo

@@ -1,0 +1,39 @@
+Algoritmo "7"
+
+Var
+   numero1, numero2, resultado: real
+   operador: caractere
+
+Inicio
+
+   Escreva("Insira o primeiro número: ")
+   Leia(numero1)
+
+   Escreva("Insira o segundo número: ")
+   Leia(numero2)
+
+   Escreva("Insira a operação: (+) Soma, (-) Subtração, (*) Multiplicação, (/) Divisão: ")
+   Leia(operador)
+
+   escolha operador
+
+      caso "+"
+         resultado <- numero1 + numero2
+
+      caso "-"
+         resultado <- numero1 - numero2
+
+      caso "*"
+         resultado <- numero1 * numero2
+
+      caso "/"
+         resultado <- numero1 / numero2
+
+      outrocaso
+         Escreva("Operador inválido")
+
+   fimescolha
+
+   Escreva("O resultado da operação: ", numero1, " ", operador, " ", numero2, " = ", resultado)
+
+Fimalgoritmo

@@ -1,0 +1,36 @@
+Algoritmo "2"
+
+Var
+
+   nota1, nota2, nota3, media: real
+
+Inicio
+
+   // Entrada
+
+   Escreva("Insira a primeira nota: ")
+   Leia(nota1)
+
+   Escreva("Insira a segunda nota: ")
+   Leia(nota2)
+
+   Escreva("Insira a terceira nota: ")
+   Leia(nota3)
+
+   // Processamento
+
+   media <- (nota1 + nota2 + nota3)/3
+
+   // Saída
+
+   se(media >= 6) entao
+
+      Escreva("Sua média foi: ", media , " e você foi aprovado")
+      
+   senao
+
+      Escreva("Sua média foi: ", media , " e você foi reprovado")
+
+   fimse
+
+Fimalgoritmo

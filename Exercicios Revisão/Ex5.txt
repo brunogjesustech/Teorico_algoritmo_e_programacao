@@ -1,0 +1,31 @@
+Algoritmo "5"
+
+Var
+
+   numero1, numero2: real
+
+Inicio
+
+   // Entrada
+
+   Escreva("Insira o primeiro número: ")
+   Leia(numero1)
+
+   Escreva("Insira o segundo número: ")
+   Leia(numero2)
+
+   // Processamento
+   
+   // Saída
+
+   se(numero1>numero2) entao
+
+      Escreva(" O primeiro número é o maior, ",numero1)
+
+   senao
+
+      Escreva("O segundo número é o maior, ",numero2)
+
+   fimse
+
+Fimalgoritmo

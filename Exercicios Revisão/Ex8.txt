@@ -1,0 +1,31 @@
+Algoritmo "8"
+
+Var
+
+   idade: inteiro
+
+Inicio
+
+   Escreva("Insira sua idade: ")
+   Leia(idade)
+
+   se(idade >= 60) entao
+      Escreva("Sua idade é: ",idade," e você é idoso")
+
+   senao
+
+      se((idade >= 19) e (idade< 60)) entao
+         Escreva("Sua idade é: ",idade," e você é adulto")
+
+      senao
+         se((idade >= 12) e (idade< 19)) entao
+            Escreva("Sua idade é: ",idade," e você é adolescente")
+
+         senao
+            Escreva("Sua idade é: ",idade," e você é criança")
+
+         fimse
+      fimse
+   fimse
+
+Fimalgoritmo

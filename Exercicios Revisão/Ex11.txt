@@ -1,0 +1,20 @@
+Algoritmo "11"
+
+Var
+
+   numero, resultado, i: inteiro
+
+Inicio
+
+   Escreva("Insira um número: ")
+   Leia(numero)
+
+   resultado <- 1
+
+   para i de 1 ate numero faca
+      resultado <- resultado * i
+   fimpara
+
+   Escreval(numero, "! = ", resultado)
+
+Fimalgoritmo

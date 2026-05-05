@@ -1,0 +1,23 @@
+Algoritmo "13"
+
+Var
+
+   numeros: vetor[1..10] de inteiro
+   i, positivos: inteiro
+
+Inicio
+
+   positivos <- 0
+
+   para i de 1 ate 10 faca
+      Escreva("Insira um número: ")
+      Leia(numeros[i])
+
+      se (numeros[i] > 0) entao
+         positivos <- positivos + 1
+      fimse
+   fimpara
+
+   Escreval("Quantidade de números positivos: ", positivos)
+
+Fimalgoritmo

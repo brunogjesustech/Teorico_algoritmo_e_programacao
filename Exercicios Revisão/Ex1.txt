@@ -1,0 +1,23 @@
+Algoritmo "1"
+
+Var
+
+antecessor, sucessor, numero: real
+
+Inicio
+
+// Entrada
+
+Escreva("Insira um número: ")
+Leia(numero)
+
+// Processamento
+
+antecessor <- numero - 1
+sucessor <- numero + 1
+
+// Saída
+
+Escreva("O número informado foi: " , numero , " o antecessor é: " , antecessor , " e o sucessor é: " , sucessor)
+
+Fimalgoritmo

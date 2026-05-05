@@ -1,0 +1,25 @@
+Algoritmo "4"
+
+Var
+
+   salAtual, salAtt, aumento: real
+
+Inicio
+
+   // Entrada
+
+   Escreva("Qual seu salário atual? ")
+   Leia(salAtual)
+   
+   Escreva("Qual o percentual de aumento (0,10 = 10%) ? ")
+   Leia(aumento)
+
+   // Processamento
+
+   salAtt <- salAtual * aumento
+
+   // Saída
+
+   Escreva("Seu salário é de: R$ ",salAtual," o percentual de aumento informado foi: ", aumento, " resultando em um novo salário de: R$ ",salAtt)
+   
+Fimalgoritmo

@@ -1,0 +1,20 @@
+Algoritmo "9"
+
+Var
+
+   numero,resultado: real
+   i: inteiro
+
+Inicio
+
+   Escreva("Insira um número: ")
+   Leia(numero)
+
+   para i de 1 até 10 faca
+
+      resultado <- numero * i
+      Escreval(numero, " * ", i, " = ", resultado)
+
+   fimpara
+   
+Fimalgoritmo
